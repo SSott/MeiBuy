@@ -1,0 +1,350 @@
+@charset "utf-8";
+html{
+    font:12px '宋体';
+}
+a{
+    color: #000;
+}
+.top{
+    background-color: #F7F7F7;
+    height: 26px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.top_page{
+    width:970px;
+    height: 26px;
+    margin: 0 auto;
+}
+.top_page_l{
+    line-height: 26px;
+}
+.top_page_r ul li {
+    float: left;
+    padding-right:10px ;
+    line-height: 26px;
+}
+.top_page_r ul li s{
+    width: 14px;
+    height: 12px;
+    background: url(../image/sj.png);
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.logo{
+    width: 970px;
+    heigh: 98px;
+    margin: 0 auto;
+
+}
+.logo_l{
+    width: 200px;
+    height: 84px;
+    background: red;
+    margin: 24px 0 19px 9px;
+    background: url(../image/1.png);
+    text-indent: -1000em;
+}
+.logo_r{
+    width: 530px;
+    height: 42px;
+    border: 1px solid #C9C9C9;
+    margin-top: 29px;
+}
+.logo_r_content{
+    margin:5px 5px 5px 4px;
+}
+.logo_r_searche{
+    width: 418px;
+    height: 28px;
+    border:1px solid #C9C9C9;
+    color: #999999;
+}
+.logo_r_btn{
+    height: 30px;
+    width: 99px;
+    color: white;
+    background-color:#2F70D0 ;
+}
+.nav{
+    width: 970px;
+    height: 25px;
+    margin: 0 auto;
+    border-bottom: 2px solid #0266A3;
+}
+.nav li {
+    float:left;
+    padding: 0 15px 0 15px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0266A3;
+}
+.nav li a{
+    color:#0266A3;
+}
+.nav li:hover{
+    background-color:#0266A3 ;
+
+}
+.nav li:hover a{
+    color:white;
+}
+.banner{
+        width: 970px;
+        height: 210px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+.subNav{
+    width: 200px;
+    height: 210px;
+    margin-right: 11px;
+}
+.ad{
+    width: 520px;
+    height: 210px;
+    background-color: grey;
+}
+.message{
+    width: 230px;
+    height: 210px;
+    background-color: white;
+}
+.subNav h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding-left: 20px;
+}
+.subNav ul{
+    background-color: #EBF0F6;
+    height: 180px;
+
+}
+.subNav s{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("../image/icon_1.png");
+}
+.subNav d{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("../image/icon_2.png");
+}
+.subNav e{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("../image/icon_3.png");
+}
+.subNav f{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("../image/icon_4.png");
+}
+.subNav g{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("../image/icon_5.png");
+}
+.subNav h{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url("../image/icon_6.png");
+}
+.subNav li{
+    font-size: 15px;
+    padding-top: 11px;
+    margin-left:9px ;
+}
+.subNav li a{
+    padding-left: 15px;
+}
+.message_top{
+    border: 1px solid #DDDDDD;
+    height: 95px;
+    background: #F7FAFF;
+    background: url("../image/center-r.png");
+
+}
+.message_botton{
+    height: 92px;
+    background: #F7FAFF;
+    margin-top: 21px;
+    background:url("../image/center-r2.png");
+}
+.material{
+    width: 950px;
+    height: 34px;
+    border-top: 2px solid #C3D7E4;
+    margin: 0 auto;
+    margin-top: 14px;
+    line-height: 34px;
+    background: #ECF1F7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.product{
+    width: 970px;
+    height: 345px;
+    margin:0 auto;
+    margin-top: 12px;
+}
+.product .product_l{
+    width: 738px;
+    height: 345px;
+    border: 1px solid #D8D8D8;
+}
+.product .product_l_top{
+    width: 712px;
+    height: 155px;
+    padding: 17px 0 0 26px;
+
+}
+.product .p_l_t_product1{
+    width: 350px;
+    height: 146px;
+
+
+}
+.product .buy{
+    width: 99px;
+    height: 143px;
+
+}
+.product .buy .img{
+    border: 1px solid #CACACA;
+    height: 100px;
+}
+.product .buy .img s{
+    display: inline-block;
+    width: 90px;
+    height: 62px;
+    background: url("../image/c1.png");
+    margin: 10px 4px 0 3px;
+}
+.product .buy .btn{
+    width: 99px;
+    height: 26px;
+    background-color: #0A84E3;
+    color: white;
+    margin-top: 15px;
+}
+.product .explain {
+    width: 250px;
+    height: 143px;
+}
+.product .explain .goodwife{
+    font-size: 14px;
+    padding: 10px 0 0 10px;
+}
+.product .explain .auto{
+    color: #863E01;
+    padding: 13px 0 0 15px;
+}
+.product .explain .money{
+    padding: 23px 0 0 11px;
+}
+.product .explain .money span{
+    color: red;
+}
+.product .explain .money s{
+    text-decoration: line-through;
+}
+.product .explain .buyed{
+    font-size: 14px;
+    padding: 28px 0 0 11px;
+}
+.product .p_l_t_product2{
+    width: 350px;
+    height: 146px;
+}
+.product .product_r{
+    width: 220px;
+    height: 345px;
+    border: 1px  #E0E6F0;
+}
+.product_l_line{
+    margin: 0 4px 0 4px;
+    border-top: 1px solid #cccccc;
+}
+.product_r h2{
+    height:28px ;
+    line-height: 28px;
+    padding-left: 15px;
+    border-bottom: 1px solid #E0E6F0;
+}
+.product_r ul{
+    padding-top: 14px;
+}
+.product_r li{
+    line-height: 23px;
+    padding-left: 26px;
+}
+.divl{
+    width: 970px;
+    height: 250px;
+    margin: 0 auto;
+}
+.material1{
+    width: 950px;
+    height: 34px;
+    border-top: 2px solid #C3D7E4;
+    margin: 0 auto;
+    margin-top: 14px;
+    line-height: 34px;
+    background: #ECF1F7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.material2{
+    width: 950px;
+    height: 34px;
+    border-top: 2px solid #C3D7E4;
+    margin: 0 auto;
+    margin-top: 14px;
+    line-height: 34px;
+    background: #ECF1F7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.div2{
+    width: 970px;
+    height: 500px;
+    margin: 0 auto;
+}
+.link{
+    width: 970px;
+    height: 103px;
+    margin-top: 11px;
+    margin: 0 auto;
+    border-top: 1px solid  #DDDDDD ;
+    color: #666666;
+    border-bottom: 3px solid  #0A7EC3 ;
+}
+.link_p1{
+margin-top: 30px;
+}
+.link_p2{
+    margin-top: 14px;
+    margin-left: 60px;
+}
+.aboutme{
+    height: 91px;
+    width: 970px;
+    margin: 0 auto;
+}
+.aboutme p{
+    margin-top: 14px;
+    text-align: center;
+}
+
